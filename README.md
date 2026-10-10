@@ -1,26 +1,33 @@
 # Supercraft
 
-我在中国农业大学读机械工程硕士，眼下做液态食品声振检测仪器。此前参与过小型蚕豆种植机的设计，还从零做起一个 Minecraft 多人服务器，运营了六年。
+机械设计 · 检测仪器 · 软件与游戏系统
 
-## 现在做的事
+中国农业大学机械工程专业硕士研究生（预计 2027 年毕业）。目前从事液态食品声振检测仪器的方案设计与开发，工作涉及机械受控激励、传感器采集和 Windows 上位机。此前参与农业机械设计，并创建、运营过 Minecraft 多人服务器 GameCraft。
 
-**液态食品声振检测仪器｜在研。** 人工晃动样品时，激励很难保持一致。我在设计一套受控激励、同步采集和上位机分析的实验装置：机械部分包括直线电机驱动、弹簧支撑的样品浮动机构和导向约束；采集部分考虑加速度与声音信号；上位机用 C++ / MFC 处理参数设置、波形显示、数据导出和频谱分析。项目仍在设计开发与可行性验证阶段，还没有可以对外宣称的检测准确率。
+## 项目经历
 
-## 以前做过的事
+### 液态食品声振检测仪器｜在研
 
-- **小型蚕豆种植一体机（2023—2024）：** 参与开沟、精量播种、覆土覆膜等机构的设计与改进；其中开沟机构做了深度和强度可调的改进。也参与了机械结构、单片机和蓝牙控制的整机联调。
-- **GameCraft Minecraft 多人服务器（2016—2022）：** 从零创建并持续运营约六年，负责玩法与版本规划、团队协作和上线迭代，参与 Java 插件开发与故障排查。核心团队 10 多人。按当时的运营统计，累计去重注册用户超过 120 万，峰值同时在线超过 1500 人。
-- **Windows 工具与自动化：** 除课题外，我也写 C / C++、Python 工具，处理数据、文件和自己碰到的重复性工作。
+- 针对人工晃动激励难以保持一致的问题，设计直线电机驱动、弹簧支撑样品浮动机构及 Z 向导向约束，重点观察激励停止后的自由衰减响应。
+- 参与加速度传感器、麦克风和动态数据采集卡选型，设计多通道同步采集方案；使用 C++ / MFC 开发参数设置、波形显示、数据导出及频谱分析等上位机功能。
+- 当前处于设计开发和可行性验证阶段，尚未形成可公开报告的检测性能指标。
 
-机械设计方面，曾获第十一届全国大学生机械创新设计大赛慧鱼组竞赛二等奖、中国大学生机械工程创新创意大赛过程装备实践与创新赛三等奖。其他经历放在[简历](https://supercraft.top/cn/resume/)里。
+### 小型蚕豆种植一体机｜2023—2024
 
-## 这里的代码
+参与开沟、精量播种、覆土覆膜等机构的设计与改进；改进开沟机构，使深度和强度可调，并参与机械结构、单片机和蓝牙控制的整机联调。
 
-公开仓库中的 [STM32 单通道 ADC 采集](https://github.com/Supercraft-1/STM32-AD-Single-Channel) 和 [MATLAB 声振信号分析](https://github.com/Supercraft-1/Liquor_Sloshing_Signal_Analysis) 是前期测试代码，用来验证采集与分析链路，不是完整仪器项目，更不代表最终检测性能。README 里写了各自做到哪一步、还缺什么。
+### GameCraft Minecraft 多人服务器｜2016—2022
 
-常用工具：SolidWorks、AutoCAD、STM32、C / C++、MFC、MATLAB、Python；做游戏服务端时使用 Java。
+创办并持续运营约六年，负责产品定位、玩法和版本规划、活动设计及团队协作；参与 Java 插件开发、配置联调和线上问题排查。核心团队 10 余人。按项目历史运营统计，累计去重注册用户超过 120 万，峰值同时在线超过 1500 人。
 
-[个人网站](https://supercraft.top/) · [简历](https://supercraft.top/cn/resume/) · [文章](https://supercraft.top/cn/)
+## 技术能力
 
-<sub>M.Eng. student at China Agricultural University. I work on measurement instruments and have also built agricultural machinery and operated a Minecraft server for six years.</sub>
+- **机械设计：** SolidWorks、AutoCAD；零部件建模、装配、工程图、干涉检查与结构改进。
+- **仪器与嵌入式：** 传感器选型、运动控制、STM32 数据采集、上下位机通信。
+- **软件与分析：** C / C++、MFC、Python、MATLAB；Windows 工具开发、声振信号处理；具有 Java 游戏服务端开发经历。
 
+公开的 [STM32 ADC 采集](https://github.com/Supercraft-1/STM32-AD-Single-Channel)与 [MATLAB 声振分析](https://github.com/Supercraft-1/Liquor_Sloshing_Signal_Analysis)仓库是前期测试代码，不是上述仪器项目的完整交付版本。
+
+机械设计相关竞赛曾获第十一届全国大学生机械创新设计大赛慧鱼组竞赛二等奖、中国大学生机械工程创新创意大赛过程装备实践与创新赛三等奖。
+
+[个人网站](https://supercraft.top/) · [简历](https://supercraft.top/cn/resume/) · [技术文章](https://supercraft.top/cn/)
