@@ -1,6 +1,6 @@
 # Supercraft
 
-机械设计 · 检测仪器 · 软件与游戏系统
+机械设计 · 检测仪器 · 软件与游戏开发
 
 中国农业大学机械工程专业硕士研究生（预计 2027 年毕业）。目前从事液态食品声振检测仪器的方案设计与开发，工作涉及机械受控激励、传感器采集和 Windows 上位机。此前参与农业机械设计，并创建、运营过 Minecraft 多人服务器 GameCraft。
 
@@ -10,7 +10,6 @@
 
 - 针对人工晃动激励难以保持一致的问题，设计直线电机驱动、弹簧支撑样品浮动机构及 Z 向导向约束，重点观察激励停止后的自由衰减响应。
 - 参与加速度传感器、麦克风和动态数据采集卡选型，设计多通道同步采集方案；使用 C++ / MFC 开发参数设置、波形显示、数据导出及频谱分析等上位机功能。
-- 当前处于设计开发和可行性验证阶段，尚未形成可公开报告的检测性能指标。
 
 ### 小型蚕豆种植一体机｜2023—2024
 
@@ -26,7 +25,7 @@
 - **仪器与嵌入式：** 传感器选型、运动控制、STM32 数据采集、上下位机通信。
 - **软件与分析：** C / C++、MFC、Python、MATLAB；Windows 工具开发、声振信号处理；具有 Java 游戏服务端开发经历。
 
-公开的 [STM32 ADC 采集](https://github.com/Supercraft-1/STM32-AD-Single-Channel)与 [MATLAB 声振分析](https://github.com/Supercraft-1/Liquor_Sloshing_Signal_Analysis)仓库是前期测试代码，不是上述仪器项目的完整交付版本。
+公开的 [STM32 ADC 采集](https://github.com/Supercraft-1/STM32-AD-Single-Channel)与 [MATLAB 声振分析](https://github.com/Supercraft-1/Liquor_Sloshing_Signal_Analysis)仓库记录了前期采集和信号处理实验。
 
 机械设计相关竞赛曾获第十一届全国大学生机械创新设计大赛慧鱼组竞赛二等奖、中国大学生机械工程创新创意大赛过程装备实践与创新赛三等奖。
 
